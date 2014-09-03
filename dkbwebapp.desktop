@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=dkbwebapp
+Comment=DKB Banking
+Type=Application
+Icon=dkbwebapp.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://banking.dkb.de/dkbmobile/* https://banking.dkb.de/dkbmobile/- %u
+Terminal=false
+X-Ubuntu-Touch=true
+

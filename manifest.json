@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "DKB Banking webapp.",
+    "framework": "ubuntu-sdk-14.10-dev2",
+    "hooks": {
+        "dkbwebapp": {
+            "apparmor": "dkbwebapp.apparmor",
+            "desktop": "dkbwebapp.desktop"
+        }
+    },
+    "maintainer": "Sturm Flut <sturmflut@lieberbiber.de>",
+    "name": "com.ubuntu.developer.sturmflut.dkbwebapp",
+    "title": "DKB Banking",
+    "version": "0.2"
+}
